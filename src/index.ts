@@ -21,7 +21,7 @@ const gimmeFacts = async ({ howMany = 10 }: { howMany?: number }) => {
     for (const _ of iterable) {
         promisesContainer.push(getCatFact({}));
     }
-    return Promise.allSettled(promisesContainer);
+    return await Promise.allSettled(promisesContainer);
 }
 
 const main = async () => {
