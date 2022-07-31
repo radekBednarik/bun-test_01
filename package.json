@@ -4,6 +4,10 @@
   "module": "src/index.js",
   "devDependencies": {
     "bun-types": "latest",
-    "node-fetch": "latest"
+    "node-fetch": "latest",
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "printWidth": 109
   }
 }
