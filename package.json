@@ -5,7 +5,7 @@
   "devDependencies": {
     "bun-types": "latest",
     "node-fetch": "latest",
-    "prettier": "^2.7.1"
+    "prettier": "latest"
   },
   "prettier": {
     "printWidth": 109
